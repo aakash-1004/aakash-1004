@@ -27,6 +27,7 @@ I build and deploy production-grade infrastructure using Docker, Kubernetes, Hel
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 
 **Languages & Tools**
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
@@ -38,9 +39,9 @@ I build and deploy production-grade infrastructure using Docker, Kubernetes, Hel
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [fullstack-chart](https://github.com/aakash-1004/fullstack-chart) | Helm · ArgoCD · Kubernetes | Fullstack app deployed via GitOps — auto-sync and self-healing |
-| [flask-mongo-app](https://github.com/aakash-1004/flask-mongo-app) | GitHub Actions · Docker · AWS | CI/CD pipeline: push → build → Docker Hub → EC2 deploy |
-| [terraform-aws](https://github.com/aakash-1004/terraform-aws) | Terraform · AWS | Complete AWS infra — EC2, VPC, ECS Fargate, ALB, S3, IAM |
+| [gitops-go-app](https://github.com/aakash-1004/gitops-go-app) | Go · Docker · Kubernetes · Helm · ArgoCD · GitHub Actions · cert-manager | GitOps pipeline on AWS EKS — automated CI (build, tag, push, sync), self-healing ArgoCD sync, topology-spread pod HA, automatic HTTPS via Let's Encrypt |
+| [eks-irsa](https://github.com/aakash-1004/eks-irsa) | AWS EKS · Fargate · IRSA · OIDC · Helm | EKS on Fargate with full IRSA trust chain (IAM OIDC → least-privilege role → ServiceAccount → STS) and AWS LB Controller auto-provisioning an ALB |
+| [terraform-aws](https://github.com/aakash-1004/terraform-aws) | Terraform · AWS | AWS infrastructure as code — VPC, subnets, ECS/Fargate, ALB, ECR via reusable modules with remote state |
 | [taskmanager](https://github.com/aakash-1004/taskmanager) | Flask · MongoDB · Prometheus | REST API with Kubernetes deployment and Prometheus observability |
 
 ---
@@ -48,14 +49,12 @@ I build and deploy production-grade infrastructure using Docker, Kubernetes, Hel
 ## 📈 GitHub Stats
 
 ![Aakash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aakash-1004&show_icons=true&theme=tokyonight&hide_border=true)
-
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=aakash-1004&theme=tokyonight&hide_border=true)
 
 ---
 
 ## 📜 Certifications
 
-- 🔄 AWS Solutions Architect Associate *(in progress)*
 - ✅ Tutedude DevOps Course *(May 2026)*
 - ✅ Coursera — Programming for Everybody (Python)
 
@@ -63,5 +62,5 @@ I build and deploy production-grade infrastructure using Docker, Kubernetes, Hel
 
 ## 📫 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/aakash-rao-b735b6244)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aakash-rao-b735b6244/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/aakash-1004)
