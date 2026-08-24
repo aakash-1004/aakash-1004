@@ -40,16 +40,9 @@ I build and deploy production-grade infrastructure using Docker, Kubernetes, Hel
 | Project | Stack | Description |
 |---------|-------|-------------|
 | [gitops-go-app](https://github.com/aakash-1004/gitops-go-app) | Go · Docker · Kubernetes · Helm · ArgoCD · GitHub Actions · cert-manager | GitOps pipeline on AWS EKS — automated CI (build, tag, push, sync), self-healing ArgoCD sync, topology-spread pod HA, automatic HTTPS via Let's Encrypt |
-| [eks-irsa](https://github.com/aakash-1004/eks-irsa) | AWS EKS · Fargate · IRSA · OIDC · Helm | EKS on Fargate with full IRSA trust chain (IAM OIDC → least-privilege role → ServiceAccount → STS) and AWS LB Controller auto-provisioning an ALB |
+| [eks-irsa](https://github.com/aakash-1004/eks-irsa) | AWS EKS · IAM · OIDC · STS · Helm | IRSA trust chain for the AWS Load Balancer Controller — IAM OIDC provider, least-privilege role, ServiceAccount binding, verified by a controller pod provisioning a real ALB via STS AssumeRoleWithWebIdentity |
 | [terraform-aws](https://github.com/aakash-1004/terraform-aws) | Terraform · AWS | AWS infrastructure as code — VPC, subnets, ECS/Fargate, ALB, ECR via reusable modules with remote state |
 | [taskmanager](https://github.com/aakash-1004/taskmanager) | Flask · MongoDB · Prometheus | REST API with Kubernetes deployment and Prometheus observability |
-
----
-
-## 📈 GitHub Stats
-
-![Aakash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aakash-1004&show_icons=true&theme=tokyonight&hide_border=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=aakash-1004&theme=tokyonight&hide_border=true)
 
 ---
 
