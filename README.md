@@ -39,6 +39,7 @@ I build and deploy production-grade infrastructure using Docker, Kubernetes, Hel
 
 | Project | Stack | Description |
 |---------|-------|-------------|
+| [boardgame-jenkins-cicd-pipeline](https://github.com/aakash-1004/boardgame-jenkins-cicd-pipeline) | Jenkins · Kubernetes (kubeadm) · SonarQube · Nexus · Trivy · Prometheus/Grafana | Self-managed K8s cluster with a Jenkins pipeline enforcing quality gates and RBAC-scoped deployment, plus full observability stack |
 | [gitops-go-app](https://github.com/aakash-1004/gitops-go-app) | Go · Docker · Kubernetes · Helm · ArgoCD · GitHub Actions · cert-manager | GitOps pipeline on AWS EKS — automated CI (build, tag, push, sync), self-healing ArgoCD sync, topology-spread pod HA, automatic HTTPS via Let's Encrypt |
 | [eks-irsa](https://github.com/aakash-1004/eks-irsa) | AWS EKS · IAM · OIDC · STS · Helm | IRSA trust chain for the AWS Load Balancer Controller — IAM OIDC provider, least-privilege role, ServiceAccount binding, verified by a controller pod provisioning a real ALB via STS AssumeRoleWithWebIdentity |
 | [terraform-aws](https://github.com/aakash-1004/terraform-aws) | Terraform · AWS | AWS infrastructure as code — VPC, subnets, ECS/Fargate, ALB, ECR via reusable modules with remote state |
